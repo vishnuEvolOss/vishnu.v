@@ -1,0 +1,34 @@
+
+import React from 'react';
+
+export const CodeIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+    </svg>
+);
+export const DatabaseIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h6.375M9 12h6.375m-6.375 5.25h6.375M3.75 6.75h.008v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+    </svg>
+);
+export const ServerIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 17.25v-.228a4.5 4.5 0 00-.12-1.03l-2.268-9.64a3.375 3.375 0 00-3.285-2.602H7.923a3.375 3.375 0 00-3.285 2.602l-2.268 9.64a4.5 4.5 0 00-.12 1.03v.228m19.5 0a3 3 0 01-3 3H5.25a3 3 0 01-3-3m19.5 0a3 3 0 00-3-3H5.25a3 3 0 00-3 3m16.5 0h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z" />
+    </svg>
+);
+export const CogIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m18 0h-1.5m-15 0a7.5 7.5 0 1115 0m-15 0H3m18 0h-1.5m-15 0a7.5 7.5 0 1115 0m-15 0H3m18 0h-1.5" />
+    </svg>
+);
+export const ReactIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/><path d="M12 5c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(90 12 12)"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(150 12 12)"/></svg>);
+export const AngularIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/><path d="M12 5c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(90 12 12)"/><ellipse cx="12" cy="12" rx="3" ry="7" transform="rotate(150 12 12)"/></svg>);
+export const NodeIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12.834.33a1.42 1.42 0 0 0-1.668 0L3.11 4.706a1.42 1.42 0 0 0-.71 1.226v8.932a1.42 1.42 0 0 0 .71 1.226l8.056 4.376a1.42 1.42 0 0 0 1.668 0l8.056-4.376a1.42 1.42 0 0 0 .71-1.226V5.932a1.42 1.42 0 0 0-.71-1.226zM12 13.061l-5.642-3.04 1.155-.625 4.487 2.422zm0-2.278l4.47-2.42-4.47-2.43-4.47 2.43zm.252 8.356V13.7l5.385-2.905v.602z"/></svg>);
+export const PythonIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M15.4,22.2,10.6,12l4.8-10.2h5.2L15.4,12l5.2,10.2ZM8.6,1.8,13.4,12,8.6,22.2H3.4L8.6,12,3.4,1.8Z"/></svg>);
+export const TypescriptIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M0 0h24v24H0V0zm21.5 19.5v-15H2.5v15h19zM12.5 12h-2V7h4v2h-2v3zm2 2h2v3h-4v-2h2v-1z"/></svg>);
+export const DockerIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M21.5 7.5c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5zm-5 0c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5zm-5 0c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5zm-5 0C5 7.5 4 8.5 4 10s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5zm12.5 5c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5zm-5 0c-1.5 0-2.5 1-2.5 2.5s1 2.5 2.5 2.5 2.5-1 2.5-2.5-1-2.5-2.5-2.5z"/></svg>);
+export const AWSIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.2 15.6c-.3.3-.6.4-.9.4s-.6-.1-.9-.4L7.8 15c-.6-.6-.6-1.5 0-2.1l2.1-2.1c.6-.6 1.5-.6 2.1 0l2.1 2.1c.6.6.6 1.5 0 2.1l-2.1 2.1zm2.4-4.2c-.3.3-.6.4-.9.4s-.6-.1-.9-.4l-2.1-2.1c-.6-.6-.6-1.5 0-2.1l2.1-2.1c.6-.6 1.5-.6 2.1 0l2.1 2.1c.6.6.6 1.5 0 2.1l-2.1 2.1z"/></svg>);
+export const GitIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M22.5 12c0-5.8-4.7-10.5-10.5-10.5S1.5 6.2 1.5 12c0 4.8 3.2 8.8 7.5 10.1v-3.4c-2.2.5-2.7-1.1-2.7-1.1-.4-1.1-1-1.4-1-1.4-.8-.6.1-.5.1-.5.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.6.3-1 .5-1.2-2-.2-4.1-.9-4.1-4.4 0-1 .3-1.8.8-2.4-.1-.2-.3-1.1.1-2.3 0 0 .7-.2 2.4.9.7-.2 1.5-.3 2.2-.3s1.5.1 2.2.3c1.7-1.1 2.4-.9 2.4-.9.4 1.2.2 2.1.1 2.3.5.6.8 1.4.8 2.4 0 3.5-2.1 4.2-4.1 4.4.3.3.6.8.6 1.6v2.4c4.3-1.3 7.5-5.3 7.5-10.1z"/></svg>);
+export const MongoIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.3 0 2.5.41 3.5 1.11V4.41c-1.1-.25-2.28-.41-3.5-.41-4.42 0-8 3.58-8 8s3.58 8 8 8c1.22 0 2.4-.16 3.5-.41v-2.7c-1 .7-2.2 1.11-3.5 1.11z"/></svg>);
+export const PostgresIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-7h2v7zm-1-8c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm6 8h-2V9h2v8z"/></svg>);
+export const TailwindIcon: React.FC = () => (<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6"><path d="M12.001,4.5C7.524,4.5,3.963,6.33,3.963,8.963c0,1.523,1.58,2.78,3.962,3.538c2.384,0.758,3.963,1.44,3.963,2.463c0,0.94-1.263,1.695-3.175,1.695c-1.912,0-3.175-0.755-3.175-2.07H2.25c0,3.135,3,4.95,6.675,4.95c4.5,0,8.037-1.92,8.037-5.025c0-2.64-2.383-4.14-5.025-5.025c-2.64-.885-3.963-1.695-3.963-2.61c0-0.755,0.885-1.44,2.383-1.44c1.5,0,2.64,0.6,2.64,1.8h3.3C19.95,6.45,16.5,4.5,12.001,4.5z"/></svg>);
